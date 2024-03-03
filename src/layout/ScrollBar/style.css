@@ -1,0 +1,24 @@
+/* CustomScrollbar.css */
+
+.custom-scrollbar {
+    /* Set a fixed height or other dimensions for your scrollbar container */
+    height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #B8860B #FBF3CC; /* For Firefox */
+  
+    /* WebKit-based browsers */
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: #B8860B;
+      border-radius: 4px;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background-color: #FBF3CC;
+    }
+  }
+  
